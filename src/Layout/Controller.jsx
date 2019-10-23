@@ -5,6 +5,7 @@ import About from "../Views/About/About";
 import Cubes from "../Views/Products/Cubes";
 import Lubes from "../Views/Products/Lubes";
 import Timers from "../Views/Products/Timers";
+import Error from "../Views/Error/Error";
 
 class AllProducts extends React.Component {
   render() {
@@ -33,6 +34,7 @@ export default class Controller extends React.Component {
             <Route path="/products/cubes" component={Cubes} />
             <Route path="/products/lubes" component={Lubes} />
             <Route path="/products/timers" component={Timers} />
+            <Route path="*" component={Error} />
             <Route />
           </Switch>
         </div>
