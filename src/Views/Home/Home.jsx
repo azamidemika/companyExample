@@ -4,7 +4,7 @@ export default class Home extends React.Component {
     return (
       <div className="container section animated fadeInUp">
         <h1 className="title is-3 animated fadeInUp">
-          Tienda de Cubos The Cube Girls
+          Tienda de Cubos "The Cube Man"
         </h1>
         <p className="animated fadeInUp">
           Los mejores cubos de Rubik del mercado, a los mejores precios.
